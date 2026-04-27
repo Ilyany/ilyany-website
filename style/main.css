@@ -1,3 +1,7 @@
+@import url(/style/footer.css);
+@import url(/style/adaptive.css);
+@import url(/style/header.css);
+
 main {
     display: flex;
     flex-direction: column;
@@ -24,7 +28,7 @@ main {
     border-radius: 37px;
     padding: 20px;
     box-shadow: 0px 3px 10px 2px gray;
-    transition: 0.3s;
+    transition: 0.5s;
 
     background-color: rgb(245, 245, 245);
 }
@@ -52,6 +56,8 @@ main {
 
     border-radius: 128px;
     border: 1px solid black;
+
+    transition: 0.3s ease;
 }
 
 .social-media-block {
@@ -64,6 +70,8 @@ main {
     padding: 10px;
     border: 1px solid gray;
     border-radius: 45px;
+
+    transition: 0.3s ease;
 }
 
 .social-media-item {
@@ -95,5 +103,3 @@ main {
     transition: 0.3s;
     margin-top: 35px;
 }
-
-/* --- Dark Theme --- */

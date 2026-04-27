@@ -1,3 +1,7 @@
+@import url(/style/header.css);
+@import url(/style/main.css);
+@import url(/style/adaptive.css);
+
 footer {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,7 @@ footer {
 .footer-item:nth-child(3) { text-align: right; }
 
 .version-number {
-    width: 90px;
+    width: 100px;
     text-align: center;
     border: 1px solid rgba(97, 97, 97, 0.7);
     border-radius: 32px;
