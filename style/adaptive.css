@@ -1,0 +1,37 @@
+@media (max-width: 1231px) {
+    .version-info {
+        width: 200px;
+        height: 40px;
+        border-radius: 24px;
+    }
+}
+
+@media (max-width: 529px) {
+    .social-media-block {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 529px) {
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .version-info {
+        width: 200px;
+        height: 40px;
+    }
+
+    footer {
+        align-items: center;
+    }
+}
+
+@media (max-width: 365px) {
+    .my-nickname-block {
+        width: 125px;
+    }
+}
